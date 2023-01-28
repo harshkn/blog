@@ -7,4 +7,3 @@ edition = "2021"
 
 [dependencies]
 yew = { version = "0.20.0", features = ["csr"] }
-material-yew = "0.3.0"
