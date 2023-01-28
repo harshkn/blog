@@ -13,8 +13,11 @@ fn App() -> Html {
 
     html! {
         <div>
-            <img src="img/blocks.jpg" alt="blocks image"/> 
+            <h1>{ "Hello World" }</h1>
+            <p class={ classes!("bg-red-500") }>{"Test!"}</p>
+            <img src="img/blocks.jpg" alt="blocks image"/>
             <img src="img/house.jpg" alt="house image"/>
+            <MatButton label="Click me!" />
         </div>
     }
 }
